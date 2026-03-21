@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from "react";
-import About from "./components/About";
-import Hero from "./components/Hero";
-import NavBar from "./components/Navbar";
-import Features from "./components/Features";
-import Story from "./components/Story";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import About from "./Components/About";
+import Hero from "./Components/Hero";
+import NavBar from "./Components/Navbar";
+import Features from "./Components/Features";
+import Story from "./Components/Story";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   const audioRef = useRef(null);
